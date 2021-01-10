@@ -1,4 +1,4 @@
-#ColddBox TryHackme Walkthrough
+# ColddBox TryHackme Walkthrough
 
 ![](images/BoxImage.png)
 
