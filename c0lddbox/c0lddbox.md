@@ -2,7 +2,7 @@
 
 ![](images/BoxImage.png)
 
-###              First Stage : Enumeration
+###           __First Stage : Enumeration__
 
 
 Nmap Scan shows port 80 and 4512 open.
@@ -49,7 +49,7 @@ So the usernames we found are :
 Hence our only way in is bruteforce I guess
 
 
-###     Second Stage : BruteForce
+###   __Second Stage : BruteForce__
 
 
 
@@ -88,10 +88,10 @@ To upgrade the shell use following commands
 ```
 
 
-### Third Stage : Second level enumeration 
+### __Third Stage : Second level enumeration__ 
 
 
-So we can run linpeas.sh to enumerate
+So we can run *linpeas* to enumerate
 
 And as we go and read the results of enumeration we see this.
 
