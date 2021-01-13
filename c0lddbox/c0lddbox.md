@@ -7,7 +7,7 @@
 
 Nmap Scan shows port 80 and 4512 open.
 
-![](images/Nmapscan.png)
+![](images/avatar.png)
 
 
 Now lets visit the site on port 80.
