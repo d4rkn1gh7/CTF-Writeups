@@ -1,7 +1,7 @@
-# TryHackme-Writeups
+# CTF-Writeups
 
-Here I post writeups of TryHackMe rooms.Also checkout my TryHackMe profile.
+Here I post writeups of TryHackMe and HacktheBox rooms.This is my website where I post all of my Writeups
 
->https://tryhackme.com/p/glitched01
+>https://d4rkn1gh7.github.io/
 
 
